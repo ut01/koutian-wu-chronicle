@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sean Xiang — Founder Chronicle</title>
-  <meta name="description" content="A source-backed editorial chronicle of Sean Xiang's path from research to enterprise security founder and AI-era infrastructure builder." />
+  <title>Koutian Wu — Researcher Chronicle</title>
+  <meta name="description" content="A source-backed editorial chronicle of Koutian Wu — USTC undergraduate, Shenzhen X-Institute fellow, NSF NCAR visiting scholar, and now a UT Austin PhD building explainable AI inside Noah-MP." />
   <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
   <style>
     :root {
@@ -2785,27 +2785,27 @@
   </style>
 </head>
 <body>
-  <a class="repo-side-button left" href="https://github.com/ktwu01/sean-xiang-chronicle/stargazers" target="_blank" rel="noopener noreferrer" aria-label="Star this repository on GitHub">Star repo</a>
-  <a class="repo-side-button right" href="https://github.com/ktwu01/sean-xiang-chronicle/fork" target="_blank" rel="noopener noreferrer" aria-label="Fork this repository on GitHub">Fork repo</a>
+  <a class="repo-side-button left" href="https://github.com/ktwu01/ktwu01.github.io/stargazers" target="_blank" rel="noopener noreferrer" aria-label="Star this repository on GitHub">Star repo</a>
+  <a class="repo-side-button right" href="https://github.com/ktwu01/ktwu01.github.io/fork" target="_blank" rel="noopener noreferrer" aria-label="Fork this repository on GitHub">Fork repo</a>
   <main class="shell">
     <div class="topline">
-      <span>Sean Xiang Chronicle</span>
+      <span>Koutian Wu Chronicle</span>
     </div>
 
     <section class="hero">
       <article class="card hero-copy">
-        <div class="eyebrow">Founder chronicle</div>
-        <h1>Sean Xiang</h1>
-        <p class="lede">From doctoral engineering formation to a long enterprise-security build — and now a present-tense case for AI infrastructure.</p>
+        <div class="eyebrow">Researcher chronicle</div>
+        <h1>Koutian Wu</h1>
+        <p class="lede">USTC Earth Sciences to NSF NCAR visiting scholar to a UT Austin PhD building explainable AI inside physics-based Noah-MP.</p>
         <p class="summary">
-          An editorial archive tracing academic research through enterprise validation, anchored by a verifiable timeline, geography, and primary sources.
+          An editorial archive tracing the path from Hefei to Shenzhen to Boulder to Austin, anchored by peer-reviewed publications, an active NSF NCAR HPC allocation, and three pieces of national-tier media coverage.
         </p>
         <div class="chips" id="heroChips">
-          <span class="chip">CUHK Ph.D.</span>
-          <span class="chip">Beckman / UC Irvine</span>
-          <span class="chip">Bloombase</span>
-          <span class="chip">Enterprise security alliances</span>
-          <span class="chip">NVIDIA / AI-era repositioning</span>
+          <span class="chip">USTC B.S. (Honors)</span>
+          <span class="chip">Shenzhen X-Institute fellow</span>
+          <span class="chip">NSF NCAR visiting scholar</span>
+          <span class="chip">UT Austin PhD — Noah-MP</span>
+          <span class="chip">Explainable AI for land surface models</span>
         </div>
       </article>
 
@@ -2813,7 +2813,7 @@
         <div>
           <div class="aside-title">Chronicle thesis</div>
           <p class="summary" style="margin-top:8px; margin-bottom:0;">
-            Technical depth, compounded over decades, into enterprise leadership. It traces ecosystem partnerships through a present-tense focus on AI infrastructure.
+            Physics-based Earth system modeling and modern AI are not substitutes — the leverage is in using explainable AI to fix where Noah-MP gets plant–rock–water interactions wrong, then sending the upgraded physics back through the broader land–climate workflow.
           </p>
         </div>
         <div class="thesis-grid" id="heroStats"></div>
@@ -2888,7 +2888,7 @@
         <section class="card map-panel">
           <div class="section-label">Geography</div>
           <div class="map-shell">
-            <div id="map" aria-label="Map showing the geographic arc of Sean Xiang's chronicle"></div>
+            <div id="map" aria-label="Map showing the geographic arc of Koutian Wu's chronicle"></div>
             <div class="map-overlay"></div>
             <div class="map-caption">
               <h3 id="mapTitle">Loading…</h3>
@@ -2982,7 +2982,7 @@
     </section>
     <p class="footer-note">
       Koutian Wu et al. - GitHub repository:
-      <a href="https://github.com/ktwu01/sean-xiang-chronicle" target="_blank" rel="noopener noreferrer">https://github.com/ktwu01/sean-xiang-chronicle</a>
+      <a href="https://github.com/ktwu01/ktwu01.github.io" target="_blank" rel="noopener noreferrer">https://github.com/ktwu01/ktwu01.github.io</a>
     </p>
   </main>
 
@@ -3018,9 +3018,9 @@
       const root = document.getElementById('heroStats');
       if (!root) return;
       const stats = [
-        ['14 years', 'leading Bloombase as CEO'],
-        ['20+', 'enterprise alliances and certifications'],
-        ['Physics → EE PhD → Security CEO', 'the technical arc']
+        ['NSF NCAR UTAA0012', 'Project Administrator on Derecho-GPU'],
+        ['3 national-tier features', "People's Daily, Tsinghua, Mango TV"],
+        ['USTC → NCAR → UT Austin', 'the research arc']
       ];
 
       stats.forEach(([value, text]) => {
@@ -4863,7 +4863,7 @@
       const blob = `${chapter.id} ${chapter.phase} ${chapter.title}`.toLowerCase();
       if (blob.includes('early') || blob.includes('formation')) return 'formation';
       if (blob.includes('research') || blob.includes('cuhk') || blob.includes('california')) return 'research';
-      if (blob.includes('founding') || blob.includes('bloombase')) return 'founder';
+      if (blob.includes('founding') || blob.includes('phd')) return 'founder';
       if (blob.includes('validation') || blob.includes('expansion')) return 'validation';
       return 'ai-era';
     }
