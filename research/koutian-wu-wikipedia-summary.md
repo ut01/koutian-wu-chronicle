@@ -20,7 +20,7 @@
 - **Jul–Dec 2023:** Visiting Scholar, NSF National Center for Atmospheric Research (NCAR)
 - **2024–2025:** Graduate Teaching Assistant, UT Austin
 - **2025:** Internships — AI Agent Evaluation Engineer at PineAI; Full-Stack LLM Developer at Beijing ZaiwenAI Technology Co., Ltd.
-- **Aug 2025 – present:** Graduate Research Assistant, Jackson School of Geosciences, UT Austin
+- **Aug 2024 – present:** Graduate Research Assistant, Jackson School of Geosciences, UT Austin
 - **Oct 2021 – Feb 2024:** Student Fellow, Shenzhen X-Institute (Shenzhen Municipal Government / Tsinghua University talent program)
 
 ## Media coverage
@@ -56,5 +56,3 @@
 - People's Daily, May 28, 2025: http://sz.people.com.cn/n2/2025/0528/c202846-41242096.html
 - Tsinghua University news: https://www.tsinghua.edu.cn/info/1182/119191.htm
 - Mango TV / Hunan TV broadcast, March 2, 2026
-</content>
-</invoke>
