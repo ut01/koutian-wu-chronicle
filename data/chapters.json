@@ -1,33 +1,32 @@
 [
   {
-    "id": "shanxi-birth",
-    "phase": "Shanxi",
-    "range": "Early years",
-    "title": "Born in Shanxi",
-    "dek": "Sean Xiang was born in Shanxi.",
+    "id": "china-formation",
+    "phase": "China",
+    "range": "Pre-2020",
+    "title": "Pre-university years in China",
+    "dek": "Koutian Wu's formation in China before USTC.",
     "narrative": [],
     "proofPoints": [],
-    "locationId": "shanxi-birthplace",
-    "locationIds": ["shanxi-birthplace"],
-    "mapCaption": "Born in Shanxi.",
+    "locationId": "china-hometown",
+    "locationIds": ["china-hometown"],
+    "mapCaption": "Pre-university years in China.",
     "mapCamera": {
       "center": [
-        112.8518,
-        35.4907
+        105.0,
+        35.0
       ],
-      "zoom": 5.0,
+      "zoom": 3.5,
       "pitch": 18,
       "bearing": -10
     },
     "sources": [
-      "dossier",
-      "timeline-v2"
+      "wikipedia-draft"
     ],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
       "stance": "Restrained narrative",
       "strengthLabel": "Source mix",
-      "strength": "Narrative chapter",
+      "strength": "Wikipedia draft",
       "artifactLabel": "Artifact readiness",
       "artifact": "Early life chapter"
     }
@@ -35,16 +34,20 @@
   {
     "id": "hefei-ustc",
     "phase": "USTC",
-    "range": "1980",
-    "title": "Entering USTC",
-    "dek": "Admitted to USTC in Hefei in 1980, majoring in Physics.",
+    "range": "2020–2024",
+    "title": "USTC: Earth Sciences and the Xingyun Poetry Club",
+    "dek": "B.S. with Honors in Geological and Earth Sciences at the University of Science and Technology of China.",
     "narrative": [
-      "This marked the formal beginning of a highly accelerated academic and technical trajectory, laying a rigorous foundation in the sciences."
+      "Koutian Wu entered USTC in Hefei in 2020, majoring in Geological and Earth Sciences. The undergraduate years included field trips, observational atmospheric work with the Mengcheng meteor radar group, and the science writing that produced his first peer-reviewed papers.",
+      "Outside the lab, he founded and led the USTC Student Xingyun Poetry Club, becoming the second-youngest student club president in USTC history at age 17 and growing the club to over 1,197 members and 25+ cultural events. The poetry-club arc and the science arc ran in parallel — both publicly trackable, both anchored at USTC."
     ],
-    "proofPoints": [],
+    "proofPoints": [
+      "Wu, K., Yi, W., Xue, X., Reid, I. M., & Lu, M. (2024). Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar. JGR: Space Physics.",
+      "Wu, K., Xu, X., Jiang, J., & Shen, A. (2024). A summary report on the Space Physics practical education in 2022. Reviews of Geophysics and Planetary Physics."
+    ],
     "locationId": "hefei",
     "locationIds": ["hefei"],
-    "mapCaption": "Xiang entered USTC in Hefei, Anhui in 1980, majoring in Physics.",
+    "mapCaption": "Hefei, Anhui — USTC undergraduate years (2020–2024).",
     "mapCamera": {
       "center": [
         117.2638,
@@ -55,242 +58,36 @@
       "bearing": -10
     },
     "sources": [
-      "dossier",
-      "timeline-v2"
+      "wikipedia-draft",
+      "jgr-meteor-radar-2024",
+      "rgpp-2024"
     ],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "Restrained narrative",
+      "stance": "Publication-backed chapter",
       "strengthLabel": "Source mix",
-      "strength": "Narrative chapter",
+      "strength": "Two co-authored peer-reviewed papers from this period",
       "artifactLabel": "Artifact readiness",
       "artifact": "Academic foundation chapter"
     }
   },
   {
-    "id": "research-formation",
-    "phase": "CUHK",
-    "range": "Graduate era – 1997",
-    "title": "A long research arc before Silicon Valley",
-    "dek": "A Ph.D. in Electrical and Electronic Engineering from CUHK, followed by a Research Associate role at HKUST, preceded everything that followed.",
-    "narrative": [
-      "Sean Xiang’s trajectory did not begin with a leap into entrepreneurship, but with a rigorous academic foundation. Earning a Ph.D. in Electrical and Electronic Engineering from The Chinese University of Hong Kong, he established a deep technical baseline.",
-      "After CUHK, a Research Associate role at HKUST (1996–1997) extended his research depth before the move to California. This scientific grounding proved crucial — the later Bloombase architecture proved resilient across multiple computing waves precisely because of this formation period."
-    ],
-    "proofPoints": [],
-    "locationId": "hong-kong",
-    "locationIds": ["hong-kong"],
-    "mapCaption": "Ph.D. formation at The Chinese University of Hong Kong in Electrical and Electronic Engineering.",
-    "mapCamera": {
-      "center": [
-        114.2068,
-        22.4196
-      ],
-      "zoom": 10.5,
-      "pitch": 34,
-      "bearing": 6
-    },
-    "sources": [
-      "launch-academy",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Public profile-backed chapter",
-      "strengthLabel": "Source mix",
-      "strength": "Third-party connective source plus timeline synthesis",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Research formation chapter"
-    }
-  },
-  {
-    "id": "california-transition",
-    "phase": "Beckman",
-    "range": "1997–1999",
-    "title": "Bridging science and technology strategy",
-    "dek": "Scientist at the Beckman Laser Institute & Medical Clinic, UC Irvine, August 1997 to December 1999.",
-    "narrative": [
-      "The move from Hong Kong to California shifted the geography and the network — from academic formation toward the institutional ecosystems of the American technology sector, setting the stage for the company-building phase that followed."
-    ],
-    "proofPoints": [],
-    "locationId": "irvine",
-    "locationIds": ["irvine"],
-    "mapCaption": "Scientist at the Beckman Laser Institute, UC Irvine — the transition from pure academia toward company-building.",
-    "mapCamera": {
-      "center": [
-        -117.8443,
-        33.6405
-      ],
-      "zoom": 10.5,
-      "pitch": 30,
-      "bearing": -18
-    },
-    "sources": [
-      "launch-academy",
-      "dossier"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Bridge chapter with one key public profile anchor",
-      "strengthLabel": "Source mix",
-      "strength": "Third-party profile plus dossier synthesis",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "California transition chapter"
-    }
-  },
-  {
-    "id": "founding-bloombase",
-    "phase": "Bloombase",
-    "range": "2012–present",
-    "title": "Bloombase is the long arc: enterprise data security built for endurance",
-    "dek": "Co-Founder & CEO of Bloombase since January 2012 — a multi-era infrastructure build embedding specialized security within global enterprise systems.",
-    "narrative": [
-      "Establishing headquarters in Redwood City placed Bloombase directly within Silicon Valley's infrastructure ecosystem — a strategic alignment with cloud ecosystems, hardware security module vendors, and enterprise buyers who demanded uncompromising platform trust.",
-      "In this highly unforgiving enterprise security market, Bloombase laid the groundwork for decades of architectural relevance."
-    ],
-    "proofPoints": [
-      "2013 releases across OpenStack, EMC, and VMware demonstrate early and deep platform integration.",
-      "2012 appearances in the Open Virtualization Alliance show early positioning in cloud security.",
-      "2014 advisory board expansion highlights early strategic organizational growth."
-    ],
-    "locationId": "redwood-city",
-    "locationIds": ["redwood-city"],
-    "mapCaption": "Bloombase founded in Redwood City, Silicon Valley.",
-    "mapCamera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
-      "zoom": 10.5,
-      "pitch": 28,
-      "bearing": -22
-    },
-    "sources": [
-      "ova-2012",
-      "bloombase-about",
-      "bloombase-offices",
-      "slayton-2014",
-      "bloombase-news-index",
-      "openstack-2013",
-      "emc-2013",
-      "vmware-2013",
-      "dossier",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Company-spine chapter",
-      "strengthLabel": "Source mix",
-      "strength": "Primary company URLs now support a stronger founding and geography layer",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Source cards ready"
-    }
-  },
-  {
-    "id": "enterprise-validation",
-    "phase": "Expand",
-    "range": "2014–2020",
-    "title": "Validation accumulates through alliances, certifications, and interoperability",
-    "dek": "A dense network of certifications and partnerships established Bloombase as a universally trusted layer in enterprise infrastructure.",
-    "narrative": [
-      "From 2014 to 2020, Bloombase methodically expanded its interoperability map. Announcements cataloged deep technical integration with Dell, Hitachi, HP ESKM, Thales ASAP, IBM, VMware Cloud on AWS, and Microsoft Azure Marketplace.",
-      "These milestones represent more than a collection of alliances; they show a clear accumulation pattern of trust. Across changing infrastructure regimes, Bloombase consistently positioned itself at the nexus where data security and performance are non-negotiable."
-    ],
-    "proofPoints": [
-      "2013-2014: Early validation established with OpenStack, EMC, VMware, Dell, and Hitachi.",
-      "2015-2017: Certifications with HP, Thales, Ultra Electronics, HPE, IBM, ATTO, and Huawei deepen custody and storage trust.",
-      "2018-2020: Public cloud scale confirmed through VMware Cloud on AWS and Microsoft Azure Marketplace.",
-      "Hardware security module (HSM) integrations widened aggressively through Marvell, nCipher, and Futurex."
-    ],
-    "locationId": "redwood-city",
-    "locationIds": ["redwood-city"],
-    "mapCaption": "Enterprise validation years based in Silicon Valley.",
-    "mapCamera": {
-      "center": [
-        -122.2364,
-        37.4852
-      ],
-      "zoom": 9.0,
-      "pitch": 44,
-      "bearing": -8
-    },
-    "sources": [
-      "openstack-2013",
-      "emc-2013",
-      "vmware-2013",
-      "vmware-2014",
-      "hitachi-2014",
-      "hp-2015",
-      "thales-2015",
-      "hpe-2015",
-      "ibm-2017",
-      "huawei-2017",
-      "vmware-aws-2018",
-      "azure-2019",
-      "marvell-2019",
-      "ncipher-2019",
-      "futurex-2020"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Strongest historical chapter",
-      "strengthLabel": "Source mix",
-      "strength": "Dense first-party alliance and certification trail",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Ready for richer document-style artifact cards"
-    }
-  },
-  {
-    "id": "geographic-expansion",
-    "phase": "Vancouver",
-    "range": "2018 onward",
-    "title": "The geography widens: strategic expansion to Canada",
-    "dek": "Expansion beyond Silicon Valley emphasized global talent, advanced cryptography capability, and strategic ecosystem scale.",
-    "narrative": [
-      "Recognizing the increasing global demand for rigorous data protection, Bloombase strategically expanded its operations into Canada. As detailed in a 2018 Launch Academy profile, Vancouver provided a strong talent pool, advanced cryptography resources, and a supportive technology ecosystem.",
-      "This geographic shift marked a transition from a Silicon Valley-centric operation to a mature, international engineering organization structured for scale."
-    ],
-    "proofPoints": [
-      "Vancouver office launch captured in 2018 Launch Academy profile."
-    ],
-    "locationId": "vancouver",
-    "locationIds": ["vancouver"],
-    "mapCaption": "Bloombase expands to Vancouver for cryptography talent and ecosystem scale.",
-    "mapCamera": {
-      "center": [
-        -123.1207,
-        49.2827
-      ],
-      "zoom": 5.25,
-      "pitch": 32,
-      "bearing": 14
-    },
-    "sources": [
-      "launch-academy",
-      "timeline-v2"
-    ],
-    "evidenceProfile": {
-      "stanceLabel": "Evidence stance",
-      "stance": "Selective expansion chapter",
-      "strengthLabel": "Source mix",
-      "strength": "One strong public expansion profile plus chronology support",
-      "artifactLabel": "Artifact readiness",
-      "artifact": "Geographic expansion chapter"
-    }
-  },
-  {
-    "id": "shenzhen-academic",
+    "id": "shenzhen-x-institute",
     "phase": "Shenzhen",
-    "range": "2018–2023",
-    "title": "Parallel academic chapter: Founding Dean and Institute co-founder in Shenzhen",
-    "dek": "Alongside leading Bloombase, Sean Xiang built an academic track in Shenzhen — Founding Dean of the School of Artificial Intelligence at Shenzhen Technology University, then Chair Professor and Co-founder at the X-Institute of Shenzhen.",
+    "range": "Oct 2021 – Feb 2024",
+    "title": "Shenzhen X-Institute Fellowship: from directionless to interdisciplinary",
+    "dek": "Student Fellow at the Shenzhen X-Institute, a talent program jointly founded by the Shenzhen Municipal Government and Tsinghua University.",
     "narrative": [
-      "Both roles were part-time and ran in parallel with his CEO duties at Bloombase. This parallel academic arc reflects the same technical thesis: that AI-era infrastructure demands deep cryptographic and security foundations."
+      "Concurrent with USTC, Wu spent more than two years (October 2021 – February 2024) as a Student Fellow at the Shenzhen X-Institute, a Shenzhen Municipal Government / Tsinghua University talent development program.",
+      "The People's Daily Overseas Edition profile (May 28, 2025) framed this period as the turning point — the move from feeling directionless as an undergraduate to picking an interdisciplinary research path. Tsinghua University's news portal subsequently republished the same piece."
     ],
-    "proofPoints": [],
+    "proofPoints": [
+      "People's Daily (Overseas Edition), May 28, 2025: 从'零'到'一' 破界创新（学创天地）",
+      "Tsinghua University news portal republication, 2025"
+    ],
     "locationId": "shenzhen",
     "locationIds": ["shenzhen"],
-    "mapCaption": "Shenzhen academic chapter: Founding Dean of AI at SZTech, then X-Institute co-founder.",
+    "mapCaption": "Shenzhen — X-Institute Student Fellow, 2021–2024 (concurrent with USTC).",
     "mapCamera": {
       "center": [
         114.0579,
@@ -301,54 +98,211 @@
       "bearing": 0
     },
     "sources": [
-      "dossier"
+      "peoples-daily-2025",
+      "tsinghua-news-2025"
     ],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
-      "stance": "LinkedIn-confirmed institutional roles",
+      "stance": "National media-backed chapter",
       "strengthLabel": "Source mix",
-      "strength": "Direct LinkedIn profile data",
+      "strength": "People's Daily (Overseas) plus Tsinghua republication",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Shenzhen academic chapter"
+      "artifact": "Profile-feature chapter"
     }
   },
   {
-    "id": "ai-era",
-    "phase": "AI era",
-    "range": "2023–now",
-    "title": "The current chapter is not nostalgia — it is AI infrastructure",
-    "dek": "Rebuilding enterprise security primitives for the AI-infrastructure era: post-quantum cryptography, NVIDIA accelerators, and a new standards-layer presence.",
+    "id": "boulder-ncar",
+    "phase": "NCAR",
+    "range": "Jul – Dec 2023",
+    "title": "Visiting Scholar at NSF NCAR: Hunga–Tonga in the MLT region",
+    "dek": "Six months at the U.S. National Center for Atmospheric Research, working with the WACCM-X group.",
     "narrative": [
-      "In 2023, Bloombase rebuilt data-at-rest encryption to run natively on NVIDIA DPUs and GPUs — a technical argument that security must operate at the accelerator level to avoid becoming a bottleneck in AI data pipelines. At NVIDIA GTC 2024, Sean Xiang served as a panelist on AI-era cyber defense alongside executives from NVIDIA, Qrypt, and Reality Defender; the Bloombase booth demonstrated post-quantum cryptography (PQC) encryption powered by NVIDIA GPU, DPU, and Morpheus AI.",
-      "In 2025, a strategic alliance with Utimaco delivered integrated NIST FIPS 140-2 Level 3 certified HSM key protection and OASIS KMIP-compliant key management for AI-era workloads. Bloombase also joined the PKI Consortium in November 2024, deepening its participation in cryptographic standards infrastructure."
+      "From July to December 2023, Wu was a Visiting Scholar at NSF NCAR in Boulder, Colorado. He worked with Han-Li Liu's WACCM-X group, combining global model output with meteor radar observations to investigate how the January 2022 Hunga–Tonga eruption perturbed the Mesosphere–Lower Thermosphere region.",
+      "The work was presented as AGU Fall Meeting abstract SA33B-2892 (2023). The Boulder period also seeded the relationships and modeling familiarity that later shaped the UT Austin PhD."
     ],
     "proofPoints": [
-      "2024: Entrust partnership integrating StoreSafe with nShield Connect HSMs."
+      "Wu, K., Liu, H.-L., Yi, W., & Xue, X. (2023). Perturbations by the 2022 Hunga-Tonga Volcano Eruption in the MLT Region Investigated Using the WACCM-X Simulation and Meteor Radar Observations. AGU Fall Meeting Abstracts, SA33B-2892."
     ],
-    "locationId": "global-ai",
-    "locationIds": ["global-ai"],
-    "mapCaption": "Bloombase integrates with NVIDIA, Utimaco, and global cloud infrastructure.",
+    "locationId": "boulder",
+    "locationIds": ["boulder"],
+    "mapCaption": "Boulder, Colorado — NSF NCAR Visiting Scholar, 2023.",
     "mapCamera": {
       "center": [
-        8,
-        24
+        -105.2705,
+        40.0150
+      ],
+      "zoom": 6.5,
+      "pitch": 30,
+      "bearing": -18
+    },
+    "sources": [
+      "agu-2023-hunga-tonga",
+      "wikipedia-draft"
+    ],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Publication-backed visit",
+      "strengthLabel": "Source mix",
+      "strength": "AGU 2023 abstract plus draft confirmation",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Visiting scholar chapter"
+    }
+  },
+  {
+    "id": "industry-internships",
+    "phase": "Industry",
+    "range": "2025",
+    "title": "Industry side-quest: AI agents and full-stack LLM",
+    "dek": "Two 2025 internships bridging research and production AI.",
+    "narrative": [
+      "Alongside the early UT Austin PhD chapter (started Aug 2024), Wu took two 2025 industry roles. He worked as an AI Agent Evaluation Engineer at PineAI and as a Full-Stack LLM Developer at Beijing ZaiwenAI Technology Co., Ltd.",
+      "These roles fed directly into the way he later approached land surface modeling — the 'AI for science' framing on the doctoral side did not come from a textbook, it came from shipping LLM systems and evaluating agents at scale."
+    ],
+    "proofPoints": [],
+    "locationId": "beijing",
+    "locationIds": ["beijing"],
+    "mapCaption": "PineAI and ZaiwenAI internships, 2025.",
+    "mapCamera": {
+      "center": [
+        116.4074,
+        39.9042
+      ],
+      "zoom": 5.0,
+      "pitch": 28,
+      "bearing": 0
+    },
+    "sources": [
+      "wikipedia-draft"
+    ],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Self-reported career chapter",
+      "strengthLabel": "Source mix",
+      "strength": "Wikipedia draft",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Industry bridge chapter"
+    }
+  },
+  {
+    "id": "austin-utexas",
+    "phase": "UT Austin",
+    "range": "Aug 2024 – present",
+    "title": "UT Austin PhD: AI for Noah-MP land surface modeling",
+    "dek": "Doctoral work at the Jackson School of Geosciences with advisor Zong-Liang Yang.",
+    "narrative": [
+      "Wu joined the Jackson School of Geosciences as a Graduate Research Assistant in August 2024, with a concurrent 2024–2025 Graduate Teaching Assistant appointment at UT Austin. His doctoral focus is model optimization of physics-based land surface models, including Noah-MP, CTSM, and HRLDAS, with explainable AI and machine learning integrated to improve plant–rock–water interaction simulation.",
+      "He is the Project Administrator for NSF NCAR allocation UTAA0012, 'Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions,' which has received a significant HPC allocation on the NSF NCAR Derecho-GPU supercomputer.",
+      "First-author conference work from this chapter: Wu, K., Li, L., Rempe, D., Matheny, A. M., Mbarak, M., & Yang, Z.-L. (2026). How Does Integrating Plant Hydraulics Improve Noah-MP Land Surface Model. 106th AMS Annual Meeting."
+    ],
+    "proofPoints": [
+      "NSF NCAR Allocation UTAA0012 (Project Administrator)",
+      "AMS 2026 abstract: How Does Integrating Plant Hydraulics Improve Noah-MP Land Surface Model"
+    ],
+    "locationId": "austin",
+    "locationIds": ["austin"],
+    "mapCaption": "Austin, Texas — Jackson School of Geosciences, UT Austin (2025–).",
+    "mapCamera": {
+      "center": [
+        -97.7341,
+        30.2849
+      ],
+      "zoom": 9.5,
+      "pitch": 28,
+      "bearing": -22
+    },
+    "sources": [
+      "ams-2026-noah-mp",
+      "ncar-allocation-utaa0012",
+      "wikipedia-draft"
+    ],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "Active research chapter",
+      "strengthLabel": "Source mix",
+      "strength": "AMS abstract plus public NSF NCAR allocation",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "PhD research spine"
+    }
+  },
+  {
+    "id": "media-recognition",
+    "phase": "Media",
+    "range": "2025–2026",
+    "title": "Media coverage: People's Daily, Tsinghua, Mango TV",
+    "dek": "Three pieces of national-tier media coverage in roughly twelve months.",
+    "narrative": [
+      "Within roughly twelve months, Wu was profiled across three national-tier outlets. People's Daily Overseas Edition (May 28, 2025) ran 从'零'到'一' 破界创新（学创天地）, a feature on Shenzhen X-Institute students that traced his path from feeling directionless as an undergraduate to interdisciplinary research. Tsinghua University's official news portal republished the piece the same year.",
+      "In March 2026, Mango TV / Hunan Television aired Episode 1 of 《夺金2026》(Gold Rush 2026), following university student entrepreneurs in Austin, Texas. Wu appears around the 25:25 mark."
+    ],
+    "proofPoints": [
+      "People's Daily (Overseas Edition), May 28, 2025",
+      "Tsinghua University news portal, 2025",
+      "Mango TV / Hunan TV, 《夺金2026》Episode 1, March 2, 2026"
+    ],
+    "locationId": "global-modeling",
+    "locationIds": ["global-modeling"],
+    "mapCaption": "National media coverage across China and U.S.-based programming.",
+    "mapCamera": {
+      "center": [
+        100.0,
+        30.0
+      ],
+      "zoom": 1.5,
+      "pitch": 10,
+      "bearing": 0
+    },
+    "sources": [
+      "peoples-daily-2025",
+      "tsinghua-news-2025",
+      "mango-tv-2026"
+    ],
+    "evidenceProfile": {
+      "stanceLabel": "Evidence stance",
+      "stance": "National-media chapter",
+      "strengthLabel": "Source mix",
+      "strength": "Three independent outlets",
+      "artifactLabel": "Artifact readiness",
+      "artifact": "Media coverage chapter"
+    }
+  },
+  {
+    "id": "present-research",
+    "phase": "Now",
+    "range": "2026–",
+    "title": "AI for land surface modeling, with HPC at scale",
+    "dek": "The current research direction: explainable AI inside physics-based Earth system models, running on Derecho-GPU.",
+    "narrative": [
+      "The current chapter is not a CV summary — it is a working research program. The thesis is that AI and physics-based modeling are not substitutes; the leverage is in using explainable AI to improve where Noah-MP gets plant–rock–water interactions wrong, then sending the upgraded physics back through the broader land–climate workflow.",
+      "Day-to-day, that means HPC runs on NSF NCAR's Derecho-GPU supercomputer under allocation UTAA0012, joint work with Zong-Liang Yang, Daniella Rempe, and Ashley Matheny at UT Austin, and a publication trajectory that started at AMS 2026 and is aiming further out from there."
+    ],
+    "proofPoints": [
+      "NSF NCAR Allocation UTAA0012 — Derecho-GPU HPC",
+      "Publication co-authors: Yang, Rempe, Matheny (UT Austin)"
+    ],
+    "locationId": "global-modeling",
+    "locationIds": ["global-modeling"],
+    "mapCaption": "AI for Earth system modeling — distributed across HPC, models, and global community.",
+    "mapCamera": {
+      "center": [
+        0.0,
+        20.0
       ],
       "zoom": 1.35,
       "pitch": 10,
       "bearing": 0
     },
     "sources": [
-      "nvidia-2023",
-      "utimaco-2025",
-      "dossier"
+      "ncar-allocation-utaa0012",
+      "ams-2026-noah-mp",
+      "wikipedia-draft"
     ],
     "evidenceProfile": {
       "stanceLabel": "Evidence stance",
       "stance": "Present-tense relevance chapter",
       "strengthLabel": "Source mix",
-      "strength": "Direct Bloombase sources with a clear AI-era frame",
+      "strength": "Active NSF NCAR allocation plus current PhD work",
       "artifactLabel": "Artifact readiness",
-      "artifact": "Best candidate for stronger media / announcement treatment"
+      "artifact": "Best candidate for current-work treatment"
     }
   }
 ]
