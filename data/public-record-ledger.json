@@ -1,153 +1,126 @@
 [
   {
-    "id": "public-record-opening",
-    "title": "The public record opens before the strongest proof does",
-    "summary": "The chronology no longer starts in a vague way. The ledger now shows a visible pre-2013 bridge, then the denser first-party release trail where the chronicle becomes materially stronger.",
+    "id": "media-coverage-record",
+    "title": "National-tier media trail",
+    "summary": "Three pieces of independent national media coverage in roughly twelve months — the strongest external sourcing for the X-Institute fellowship and Austin chapters.",
     "stats": [
       {
-        "value": "2012",
-        "label": "Earliest captured index entry"
-      },
-      {
-        "value": "2013",
-        "label": "First dense first-party release sequence"
+        "value": "May 2025",
+        "label": "First People's Daily feature"
       },
       {
         "value": "2025",
-        "label": "Latest captured AI-era alliance signal"
+        "label": "Tsinghua republication"
+      },
+      {
+        "value": "Mar 2026",
+        "label": "Mango TV / Hunan TV broadcast"
       }
     ],
     "entries": [
       {
-        "dateLabel": "Dec 12, 2012",
-        "title": "Open Virtualization Alliance overview by Bloombase",
-        "summary": "Useful as a bridge source: it proves Bloombase was visible in secure virtualization discourse before the stronger 2013 company-hosted releases.",
-        "url": "http://www.openvirtualizationalliance.org/resources",
-        "sourceId": "ova-2012",
-        "chapterId": "founding-bloombase",
-        "tone": "context"
-      },
-      {
-        "dateLabel": "Feb 18, 2013",
-        "title": "Bloombase joins OpenStack community",
-        "summary": "The public founder-era chronology becomes direct here: Sean Xiang is named in the company-hosted release trail that anchors the chronicle more confidently.",
-        "url": "https://www.bloombase.com/news_and_events/20130218-1.html",
-        "sourceId": "openstack-2013",
-        "chapterId": "founding-bloombase",
+        "dateLabel": "May 28, 2025",
+        "title": "People's Daily Overseas Edition — 从'零'到'一' 破界创新（学创天地）",
+        "summary": "National-tier feature on Shenzhen X-Institute students; profiles Wu's path from feeling directionless as an undergraduate to interdisciplinary research.",
+        "url": "http://sz.people.com.cn/n2/2025/0528/c202846-41242096.html",
+        "sourceId": "peoples-daily-2025",
+        "chapterId": "shenzhen-x-institute",
         "tone": "primary"
       },
       {
-        "dateLabel": "May 8, 2013",
-        "title": "EMC Technology Partner Program",
-        "summary": "Shows the founder chapter immediately entering interoperability and infrastructure credibility territory rather than reading like a generic startup launch story.",
-        "url": "https://www.bloombase.com/news_and_events/20130508-1.html",
-        "sourceId": "emc-2013",
-        "chapterId": "founding-bloombase",
+        "dateLabel": "2025",
+        "title": "Tsinghua University news portal republication",
+        "summary": "Tsinghua's official news portal carried the People's Daily piece, adding institutional weight to the X-Institute fellowship narrative.",
+        "url": "https://www.tsinghua.edu.cn/info/1182/119191.htm",
+        "sourceId": "tsinghua-news-2025",
+        "chapterId": "shenzhen-x-institute",
         "tone": "primary"
       },
       {
-        "dateLabel": "Oct 8, 2014",
-        "title": "Gregory W. Slayton joins Bloombase Advisory Board",
-        "summary": "Useful because it shows the founder arc widening from product proof into strategic-growth language and international scaling ambition on a first-party company URL.",
-        "url": "https://www.bloombase.com/news_and_events/20141008-1.html",
-        "sourceId": "slayton-2014",
-        "chapterId": "founding-bloombase",
+        "dateLabel": "Mar 2, 2026",
+        "title": "Mango TV / Hunan TV — 《夺金2026》Episode 1",
+        "summary": "Television broadcast following university student entrepreneurs in Austin, Texas. Wu appears around 25:25.",
+        "url": "https://www.youtube.com/watch?v=1tyDh6d85og&t=1525s",
+        "sourceId": "mango-tv-2026",
+        "chapterId": "media-recognition",
         "tone": "primary"
       }
     ]
   },
   {
-    "id": "enterprise-density",
-    "title": "Enterprise trust becomes a repeated pattern, not a single logo moment",
-    "summary": "Once the company is public, the archive works best when readers can see the rhythm of alliances, certifications, and HSM / cloud adjacencies across multiple years.",
+    "id": "publication-record",
+    "title": "Publication record across two subfields",
+    "summary": "The peer-reviewed and conference work crosses atmospheric/space physics (USTC, NCAR) and land surface modeling (UT Austin).",
     "stats": [
       {
-        "value": "2014?2020",
-        "label": "Main validation arc"
+        "value": "2",
+        "label": "Peer-reviewed publications"
       },
       {
-        "value": "13+",
-        "label": "Direct or partner-hosted milestones in the arc"
+        "value": "2",
+        "label": "Conference abstracts"
       },
       {
-        "value": "3",
-        "label": "Distinct trust surfaces: platforms, HSMs, enterprise validation"
+        "value": "2",
+        "label": "Subfields covered"
       }
     ],
     "entries": [
       {
-        "dateLabel": "Jan 22, 2014",
-        "title": "Dell Technology Partner certification",
-        "summary": "One of the early signs that the company is building trust by passing through enterprise partner programs, not by publishing product claims alone.",
-        "url": "https://www.bloombase.com/news_and_events/20140122-1.html",
-        "sourceId": "vmware-2014",
-        "chapterId": "enterprise-validation",
+        "dateLabel": "2024",
+        "title": "JGR: Space Physics — Mengcheng meteor radar",
+        "summary": "Wu, K., Yi, W., Xue, X., Reid, I. M., & Lu, M. (2024). Diurnal and seasonal variations of meteor speed and arrival angle observed by Mengcheng meteor radar. JGR: Space Physics, 129(10), e2024JA032767.",
+        "url": "https://doi.org/10.1029/2024JA032767",
+        "sourceId": "jgr-meteor-radar-2024",
+        "chapterId": "hefei-ustc",
         "tone": "primary"
       },
       {
-        "dateLabel": "Jun 13, 2016",
-        "title": "Ultra Electronics AEP Keyper HSM interoperability",
-        "summary": "Deepens the key-custody and HSM thread that gives the middle years real infrastructure texture instead of a generic alliance wall.",
-        "url": "https://www.bloombase.com/news_and_events/20160613-1.html",
-        "sourceId": "ultra-2016",
-        "chapterId": "enterprise-validation",
+        "dateLabel": "Dec 2023",
+        "title": "AGU 2023 — Hunga–Tonga / WACCM-X (SA33B-2892)",
+        "summary": "First-author conference work from the NSF NCAR visiting-scholar period.",
+        "url": "https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1364470",
+        "sourceId": "agu-2023-hunga-tonga",
+        "chapterId": "boulder-ncar",
         "tone": "primary"
       },
       {
-        "dateLabel": "Aug 1, 2017",
-        "title": "Huawei OceanStor V3 interoperability certification",
-        "summary": "A direct Bloombase release that thickens 2017, showing the validation arc extending across unified storage systems in addition to IBM and ATTO.",
-        "url": "https://www.bloombase.com/news_and_events/20170801-1.html",
-        "sourceId": "huawei-2017",
-        "chapterId": "enterprise-validation",
+        "dateLabel": "2026",
+        "title": "AMS 2026 — Plant hydraulics in Noah-MP",
+        "summary": "Wu, K., Li, L., Rempe, D., Matheny, A. M., Mbarak, M., & Yang, Z.-L. (2026). 106th AMS Annual Meeting.",
+        "url": "https://annual.ametsoc.org/index.cfm/2026/",
+        "sourceId": "ams-2026-noah-mp",
+        "chapterId": "austin-utexas",
         "tone": "primary"
-      },
-      {
-        "dateLabel": "Mar 5, 2019",
-        "title": "Marvell LiquidSecurity Network HSM partnership",
-        "summary": "A newly captured partner-hosted URL thickens the 2019 chronology between Azure Marketplace and nCipher, making the trust layer feel continuous rather than sparse.",
-        "url": "https://www.marvell.com/company/news/pressDetail.do?releaseID=10619",
-        "sourceId": "marvell-2019",
-        "chapterId": "enterprise-validation",
-        "tone": "context"
       }
     ]
   },
   {
-    "id": "ai-era-continuity",
-    "title": "The latest chapter reads better when it feels like continuity, not reinvention",
-    "summary": "The AI-era close is strongest when presented as the newest visible edge of a long security and infrastructure chronology rather than a disconnected pivot.",
+    "id": "research-allocation-record",
+    "title": "Active research allocation",
+    "summary": "The current research direction is anchored by an active NSF NCAR HPC allocation.",
     "stats": [
       {
-        "value": "2023",
-        "label": "NVIDIA-era positioning visible"
+        "value": "UTAA0012",
+        "label": "NSF NCAR allocation ID"
       },
       {
-        "value": "2025",
-        "label": "Utimaco alliance extends the line"
+        "value": "Derecho-GPU",
+        "label": "HPC system"
       },
       {
-        "value": "1 arc",
-        "label": "Security continuity from storage era to AI era"
+        "value": "Project Administrator",
+        "label": "Wu's role"
       }
     ],
     "entries": [
       {
-        "dateLabel": "2023",
-        "title": "Rebuilding Bloombase with NVIDIA DPUs and GPUs",
-        "summary": "This is the cleanest statement of how the long data-at-rest story is being reframed for accelerated computing and AI infrastructure.",
-        "url": "https://www.bloombase.com/blog/rebuilding-bloombase-data-at-rest-security-with-nvidia-dpus-and-gpus/",
-        "sourceId": "nvidia-2023",
-        "chapterId": "ai-era",
-        "tone": "primary"
-      },
-      {
-        "dateLabel": "Apr 29, 2025",
-        "title": "Bloombase and Utimaco technology alliance for the AI era",
-        "summary": "A direct release surface that makes the closing chapter feel current, source-backed, and connected to the same trust infrastructure logic as the middle years.",
-        "url": "https://www.bloombase.com/news_and_events/20250429-1.html",
-        "sourceId": "utimaco-2025",
-        "chapterId": "ai-era",
+        "dateLabel": "2026",
+        "title": "NSF NCAR Allocation UTAA0012 — Explainable AI for Noah-MP",
+        "summary": "Significant HPC time on the NSF NCAR Derecho-GPU supercomputer for the project 'Explainable AI for Improving Physics-Based Noah-MP Land Surface Modeling of Plant–Rock–Water Interactions.' Wu serves as Project Administrator.",
+        "url": "https://arc.ucar.edu/",
+        "sourceId": "ncar-allocation-utaa0012",
+        "chapterId": "present-research",
         "tone": "primary"
       }
     ]

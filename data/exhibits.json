@@ -1,155 +1,98 @@
 [
   {
-    "id": "founding-release-trail",
-    "chapterId": "founding-bloombase",
+    "id": "media-coverage-trail",
+    "chapterId": "media-recognition",
     "artifactIds": [
-      "openstack-2013-artifact",
-      "vmware-2013-artifact"
+      "peoples-daily-2025-artifact",
+      "tsinghua-2025-artifact",
+      "mango-tv-2026-artifact"
     ],
-    "eyebrow": "Exhibit 01 · Founding release trail",
-    "title": "The founder chapter now rests on dated public releases",
-    "summary": "February and August 2013 provided the first durable public record. These documents make Sean Xiang legible inside a real enterprise-infrastructure narrative before later validation stacks up.",
+    "eyebrow": "Exhibit 01 · National media trail",
+    "title": "Three pieces of national-tier coverage in roughly twelve months",
+    "summary": "People's Daily Overseas Edition (May 2025), Tsinghua University news republication (2025), and Mango TV / Hunan Television's 《夺金2026》Episode 1 (March 2026) form a coherent media trail spanning the X-Institute fellowship and the Austin student-entrepreneur chapter.",
     "comparativeBeats": [
       {
-        "label": "Identity becomes public",
-        "title": "OpenStack gives the chapter a named founder frame",
-        "text": "The release states role, market problem, and company thesis in the same document.",
-        "emphasis": "Role + thesis",
-        "signal": "Founder proof"
+        "label": "May 2025 · Print",
+        "title": "People's Daily Overseas Edition",
+        "text": "First national-tier coverage; frames Wu's path from undergraduate uncertainty to interdisciplinary research.",
+        "emphasis": "Print feature",
+        "signal": "Media entry"
       },
       {
-        "label": "Market texture appears",
-        "title": "VMware shows the company targeting trust-heavy infrastructure",
-        "text": "The buyer language was already about virtualization, cloud trust, and privacy risk.",
-        "emphasis": "Infrastructure market",
-        "signal": "Enterprise adjacency"
+        "label": "2025 · Institutional",
+        "title": "Tsinghua University news portal republication",
+        "text": "Adds an institutional layer of confirmation to the X-Institute fellowship narrative.",
+        "emphasis": "Republication",
+        "signal": "Institutional confirmation"
       },
       {
-        "label": "Sequence",
-        "title": "A founding-year sequence",
-        "text": "A progression from role confirmation into ecosystem positioning.",
-        "emphasis": "Sequence",
-        "signal": "Chronology spine"
+        "label": "Mar 2026 · Broadcast",
+        "title": "Mango TV / Hunan TV — 《夺金2026》Episode 1",
+        "text": "Television documentary on student entrepreneurs in Austin, Texas; Wu appears around 25:25.",
+        "emphasis": "Television",
+        "signal": "Broadcast continuity"
       }
     ]
   },
   {
-    "id": "validation-arc",
-    "chapterId": "enterprise-validation",
+    "id": "publication-arc",
+    "chapterId": "austin-utexas",
     "artifactIds": [
-      "dell-2014-artifact",
-      "hitachi-2014-artifact",
-      "ultra-2016-artifact",
-      "ibm-2017-artifact",
-      "atto-2017-artifact",
-      "azure-2019-artifact"
+      "jgr-2024-artifact",
+      "agu-2023-artifact",
+      "ams-2026-artifact"
     ],
-    "eyebrow": "Exhibit 02 · Enterprise validation arc",
-    "title": "The middle years read as a sequence of trust surfaces",
-    "summary": "The chronicle shows how certification, alliance status, HSM trust, storage-networking interoperability, security validation, and marketplace distribution accumulate across several infrastructure waves.",
+    "eyebrow": "Exhibit 02 · Publication arc",
+    "title": "From meteor radar at USTC to plant hydraulics in Noah-MP",
+    "summary": "The publication trail crosses two subfields. AGU 2023 and JGR: Space Physics 2024 close the USTC / NCAR atmospheric-physics arc; AMS 2026 opens the UT Austin land-surface-modeling arc with co-authors Yang, Rempe, and Matheny.",
     "comparativeBeats": [
       {
-        "label": "2014 · Entry",
-        "title": "Dell certification opens the validation run with interoperability language",
-        "text": "The company becomes legible through formal compatibility.",
-        "emphasis": "Certification",
-        "signal": "Entry point"
+        "label": "Dec 2023 · Atmospheric",
+        "title": "AGU 2023 — Hunga–Tonga / WACCM-X",
+        "text": "First-author conference work from the NSF NCAR visiting-scholar period.",
+        "emphasis": "Conference abstract",
+        "signal": "Visiting scholar"
       },
       {
-        "label": "2014 · Breadth",
-        "title": "Hitachi widens the story from one platform into a broader storage ecosystem",
-        "text": "The trust trail spreads across enterprise infrastructure categories.",
-        "emphasis": "Alliance breadth",
-        "signal": "Storage expansion"
+        "label": "2024 · Peer-reviewed",
+        "title": "JGR: Space Physics — Mengcheng meteor radar",
+        "text": "First first-author peer-reviewed paper; closes the USTC undergraduate research arc.",
+        "emphasis": "JGR paper",
+        "signal": "USTC capstone"
       },
       {
-        "label": "2016 · Security depth",
-        "title": "Ultra Electronics AEP moves into key custody and HSM posture",
-        "text": "The company speaks the language of hardened key storage and enterprise cryptographic architecture.",
-        "emphasis": "HSM trust",
-        "signal": "Security depth"
-      },
-      {
-        "label": "2017 · Maturity",
-        "title": "IBM marks sustained enterprise validation",
-        "text": "Recognition continues after the first wave of ecosystem entry.",
-        "emphasis": "Security validation",
-        "signal": "Maturity cue"
-      },
-      {
-        "label": "2017 · Continuity",
-        "title": "ATTO shows the trust trail touching storage-networking infrastructure",
-        "text": "The story reaches the physical data path and performance-sensitive infrastructure surfaces.",
-        "emphasis": "Hardware path",
-        "signal": "Infrastructure continuity"
-      },
-      {
-        "label": "2019 · Translation",
-        "title": "Azure Marketplace carries the validation story into public-cloud distribution",
-        "text": "The same trust logic moves from storage and HSM ecosystems into cloud-era deployment surfaces.",
-        "emphasis": "Cloud distribution",
-        "signal": "Platform translation"
+        "label": "2026 · Land surface",
+        "title": "AMS 2026 — plant hydraulics in Noah-MP",
+        "text": "First conference paper from the UT Austin chapter; co-authors include Yang, Rempe, and Matheny.",
+        "emphasis": "AMS abstract",
+        "signal": "PhD opening"
       }
     ]
   },
   {
-    "id": "geography-proof",
-    "chapterId": "geographic-expansion",
+    "id": "present-research-stack",
+    "chapterId": "present-research",
     "artifactIds": [
-      "geography-footprint-2018"
+      "ncar-utaa0012-artifact",
+      "ams-2026-artifact"
     ],
-    "eyebrow": "Exhibit 03 · Geography as evidence",
-    "title": "Expansion logic",
-    "summary": "Vancouver matters because the 2018 Launch Academy profile explains why Canada enters the story, while the Bloombase offices page proves the expansion sits inside a wider operating footprint.",
+    "eyebrow": "Exhibit 03 · Present research stack",
+    "title": "Active research vehicle: NSF NCAR allocation UTAA0012",
+    "summary": "The current research lives at the intersection of Noah-MP development, explainable AI, and HPC at scale on the NSF NCAR Derecho-GPU supercomputer.",
     "comparativeBeats": [
       {
-        "label": "Why",
-        "title": "Canada enters the story",
-        "text": "Talent, cryptography, and ecosystem positioning gave Vancouver strategic meaning.",
-        "emphasis": "Strategic rationale",
-        "signal": "Bridge source"
+        "label": "Allocation",
+        "title": "NSF NCAR UTAA0012 on Derecho-GPU",
+        "text": "Project Administrator on a significant HPC allocation for explainable AI inside Noah-MP.",
+        "emphasis": "HPC allocation",
+        "signal": "Active research"
       },
       {
-        "label": "Where",
-        "title": "Part of a real operating network",
-        "text": "The footprint is materially grounded and expands the global ecosystem.",
-        "emphasis": "Operating footprint",
-        "signal": "Primary proof"
-      }
-    ]
-  },
-  {
-    "id": "ai-era-signal-stack",
-    "chapterId": "ai-era",
-    "artifactIds": [
-      "nvidia-2023",
-      "ai-era-signal-matrix",
-      "utimaco-2025"
-    ],
-    "eyebrow": "Exhibit 04 · AI-era signal stack",
-    "title": "A credible present-tense sequence: reframing, visibility, then alliance execution",
-    "summary": "A 2023 technical reframing around NVIDIA DPUs and GPUs, ongoing public news visibility, and a 2025 alliance that explicitly names the AI era.",
-    "comparativeBeats": [
-      {
-        "label": "2023 · Reframing",
-        "title": "NVIDIA brings accelerated-computing language",
-        "text": "The company explained how security primitives should be rebuilt for a new stack.",
-        "emphasis": "Technical argument",
-        "signal": "Relevance reset"
-      },
-      {
-        "label": "2024 · Continuity",
-        "title": "Ongoing visibility",
-        "text": "Conference and news-surface visibility confirm persistent activity.",
-        "emphasis": "Public continuity",
-        "signal": "Presence layer"
-      },
-      {
-        "label": "2025 · Execution",
-        "title": "Utimaco alliance",
-        "text": "The alliance language itself names AI-era data security.",
-        "emphasis": "Alliance execution",
-        "signal": "Direct present proof"
+        "label": "First output",
+        "title": "AMS 2026 plant hydraulics paper",
+        "text": "First conference paper from the project, co-authored with Yang, Rempe, and Matheny.",
+        "emphasis": "Conference abstract",
+        "signal": "Initial result"
       }
     ]
   }
